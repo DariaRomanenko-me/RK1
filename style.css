@@ -50,7 +50,7 @@ body {
 }
 
 header {
-    background-color: #fafafa;
+    background-color: #fafafab6;
     background-image: inherit;
 }
 
@@ -299,6 +299,9 @@ form a {
     text-align: center;
     padding: 10px;
     color: rgb(40, 105, 102);
+    text-shadow: #8bb3e0 1px 1px 0, #8bb3e0 2px 2px 0, 
+    #8bb3e0 3px 3px 0, #8bb3e0 4px 4px 0, 
+    #8bb3e0 5px 5px 0;
 }
 
 .gallery_content img {
@@ -320,7 +323,7 @@ form a {
 .gallery {
     max-width:1000px;
     min-height: 400px;
-    background-color: rgb(1, 163, 109);
+    background-color: rgba(1, 163, 109, 0.5);
     margin: 0 auto;
     display: flex;
     flex-direction: column;
